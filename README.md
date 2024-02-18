@@ -13,15 +13,15 @@
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PHP（Debian：php5-dev）</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">udev（debian：libudev-dev）</font></font></li>
 </ul>
-<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">依赖项（libav）：</font></font></p>
-<ul dir="auto">
-<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">亚斯姆</font></font></li>
-<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">alsa-lib（debian：libasound2-dev）</font></font></li>
-</ul>
-<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">捆绑的库：</font></font></p>
-<ul dir="auto">
-<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库配置</font></font></li>
-<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">利巴夫</font></font></li>
-</ul>
-<hr>
+
+
+#  Dependencies (libav):
+
+yasm
+alsa-lib (debian: libasound2-dev)
+
+#   Bundled libraries:
+
+libconfig
+libav
 </article></div>
